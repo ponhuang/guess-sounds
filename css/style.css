@@ -1,0 +1,83 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #888;
+  width: 80%;
+  margin: 6rem auto;
+  background-color: rgba(220, 220, 220, 0.5); }
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center; }
+
+.title {
+  display: inline-block;
+  font-size: 3rem;
+  text-align: center; }
+
+.btn {
+  display: inline-block;
+  width: 11rem;
+  height: 11rem;
+  border: none;
+  border-radius: 6px;
+  box-shadow: inset 4px 4px 10px 0 rgba(0, 0, 0, 0.08), 2px 2px 4px 0 #fff;
+  background-color: rgba(220, 220, 220, 0.5);
+  cursor: pointer;
+  position: relative; }
+  .btn span {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #aaa;
+    position: absolute;
+    top: 0.8rem;
+    right: 1rem; }
+
+.sound {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 5rem;
+  margin: 0 auto;
+  padding: 5rem 0; }
+  .sound__W {
+    background: no-repeat center/75% url("../img/bird.png"); }
+  .sound__D {
+    background: no-repeat center/75% url("../img/cat.png"); }
+  .sound__T {
+    background: no-repeat center/75% url("../img/dinosaur.png"); }
+  .sound__G {
+    background: no-repeat center/75% url("../img/house.png"); }
+  .sound__J {
+    background: no-repeat center/75% url("../img/koala.png"); }
+  .sound__I {
+    background: no-repeat center/75% url("../img/duck.png"); }
+  .sound__K {
+    background: no-repeat center/75% url("../img/rusty.png"); }
+  .sound__U {
+    background: no-repeat center/75% url("../img/mushroom.png"); }
+  .sound__R {
+    background: no-repeat center/75% url("../img/flower.png"); }
+
+.btn-stop {
+  color: #888;
+  font-size: 2rem;
+  width: 25rem;
+  height: 5rem;
+  margin: 0 auto 6rem auto;
+  box-shadow: inset 2px 2px 4px 0 #fff, 4px 4px 10px 0 rgba(0, 0, 0, 0.08); }
+
+footer {
+  text-align: center;
+  color: #aaa; }
